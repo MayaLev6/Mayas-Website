@@ -1,0 +1,89 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-size: cover;
+    background-image: url("../media/pexels-sohail-nachiti-807598\ \(1\).jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  #button {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #div {
+    background-color: #d8e3db;
+    width: 400px;
+    height: 420px;
+    border: 3px solid #f1f1f1;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 5px 10px 50px #d9d1d3;
+    z-index: 1;
+    color: #324a40;
+    font-weight: 200%;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 80%;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    transition: background-color 0.7s ease-out 0.7ms;
+    color: #20362c;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  
+  .input:hover {
+    background-color: #c5d6cf;
+  }
+  .askFor {
+    margin-left: 30px;
+    font-size: 150%;
+  }
+  #buttonLog {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 325px;
+    margin-left: 29px;
+    transition: background-color 0.7s ease-out 0.7ms;
+    background-color: #6d9c6f;
+    font-weight: 800;
+    color: #3d4e2d;
+    margin-top: 100px;
+  }
+  
+  #buttonLog:hover {
+    background-color: #406C42;
+    color: #A2BF90;
+  }
+  
+  .movep {
+    color: #405c51;
+  }
+  
+  #div ::placeholder {
+    color: #a0b0aa;
+  }
+  
+  #logIn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #LogInH {
+    font-size: 300%;
+    color: #729c89
+  }
+  
